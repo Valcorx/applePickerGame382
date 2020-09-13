@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Globalization;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Basket : MonoBehaviour
 {
+
+    public Text scoreGT;
     // Start is called before the first frame update
     void Start()
     {
-        GameObject scoreGO = GameObject.Fimd("ScoreCounter");
+        GameObject scoreGO = GameObject.Find("ScoreCounter");
         scoreGT = scoreGO.GetComponent<Text>();
 
         scoreGT.text = "0";
