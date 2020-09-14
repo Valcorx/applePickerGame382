@@ -851,7 +851,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 682275273045945597, guid: d8461b6d47aa1364a896e5ef027f0c58, type: 3}
       propertyPath: chanceToChangeDirections
-      value: 0.02
+      value: 0.002
       objectReference: {fileID: 0}
     - target: {fileID: 7059855394341556218, guid: d8461b6d47aa1364a896e5ef027f0c58, type: 3}
       propertyPath: m_IsKinematic
