@@ -17,7 +17,7 @@ public class HighScore : MonoBehaviour
     {
         if (PlayerPrefs.HasKey("HighScore"))
         {
-            score = PlayerPrefs.GetInt("HighScores");
+            score = PlayerPrefs.GetInt("HighScore");
         }
         PlayerPrefs.SetInt("HighScore", score);
     }
@@ -27,7 +27,7 @@ public class HighScore : MonoBehaviour
         Text gt = this.GetComponent<Text>();
         gt.text = "High Score: " + score;
 
-        if(score > PlayerPrefs.GetInt("HighScore"))
+        if (score > PlayerPrefs.GetInt("HighScore"))
         {
             PlayerPrefs.SetInt("HighScore", score);
         }
