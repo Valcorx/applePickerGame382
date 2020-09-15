@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class retryButton : MonoBehaviour
+public class HardButtonManager : MonoBehaviour
 {
-
     public void OnButtonPress()
     {
-        SceneManager.LoadScene("StartScreen");
+        SceneManager.LoadScene("_Scene_2");
     }
-
 }

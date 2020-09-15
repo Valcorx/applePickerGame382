@@ -614,7 +614,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 976622067}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7096508320942407546, guid: f1d21ee8eda3ef142a51a216555cccec, type: 3}
+        m_TargetAssemblyTypeName: EasyButton, Assembly-CSharp
+        m_MethodName: OnButtonPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &976622067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -717,7 +729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -739,7 +751,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Mohamed Abdelwadood
 
-    Leopoldo Nico'
+    Leopoldo Nikonowicz'
 --- !u!222 &994877984
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1111,7 +1123,7 @@ GameObject:
   - component: {fileID: 1631026424}
   - component: {fileID: 1631026423}
   m_Layer: 5
-  m_Name: EasyButton (1)
+  m_Name: HardButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1179,7 +1191,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1631026424}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -7209985635493733328, guid: 288ccfee9946f9043b1c808ee1cc21f4, type: 3}
+        m_TargetAssemblyTypeName: HardButtonManager, Assembly-CSharp
+        m_MethodName: OnButtonPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1631026424
 MonoBehaviour:
   m_ObjectHideFlags: 0
