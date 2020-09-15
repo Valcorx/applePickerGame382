@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class retryButton : MonoBehaviour
 {
-    int n;
+
     public void OnButtonPress()
     {
         SceneManager.LoadScene("_Scene_0");
